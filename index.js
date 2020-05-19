@@ -12,4 +12,4 @@ const reduce = function(list , cb , initial){
  return memo;
 };
 
-reduce([1,2,3], (v,sum) => v + sum, 0);
+reduce([2,3,5], (v,sum) => v + sum);
